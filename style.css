@@ -1,0 +1,76 @@
+h1 {
+    color: red;
+    text-align: center;
+    font-size:60px;
+    text-shadow: 2px 2px 3.5px black;
+  }
+h2 {
+  text-align: center;
+  link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: pink;
+    background-color: transparent;
+    text-decoration: underline;
+}
+}
+@media (max-width: 600px) and (min-width: 318px) {
+  img {
+    width: 500px;
+    height: 200px;
+  }
+}
+img {
+  width: 1000px;
+  height: 675px;
+  display: inline-block;
+}
+.white {
+  background-color: white;
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+}
+h3 {
+  font-size:30px;
+  text-align: center;
+  border: 2px solid pink;
+  border-radius: 10px;
+  background-color: pink;
+  width: 400px;
+  height: 40px;
+}
+h4 {
+  color: red;
+  font-size:40px;
+  text-shadow: 2px 2px 2.5px black;
+}
+
+h4 {
+  color: red;
+  font-size:40px;
+  text-shadow: 2px 2px 2.5px black;
+}
+p {
+  font-size:25px;
+}
+ol {
+  background-color: pink;
+  border: 2px solid pink;
+  border-radius: 10px;
+  width: 360px;
+  font-size: large;
+}
